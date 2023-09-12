@@ -2,25 +2,30 @@ h1{
   font-family: 'outline' ; 
   text-align: center;
   font-size:  5rem;
+  color: rgb(0, 0, 0);
 }
 h2{
   font-family: 'heavy';
   text-align: center;
   font-size: 2.8rem;
+  color:rgb(0, 0, 0);
 }
 
 h3{
   font-family:'regular';
   font-size: 1.5rem;
+  color:rgb(0, 0, 0);
 }
 
 h4{
   font-family:'medium';
   font-size: 1.8rem;
+  color:rgb(0, 0, 0);
 }
 h5{
   font-family: light;
   font-size: 1.5rem;
+  color: rgb(0, 0, 0);
 }
 
 @font-face{
