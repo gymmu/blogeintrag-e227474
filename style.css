@@ -1,11 +1,45 @@
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
+h1{
+  font-family: 'outline' ; 
+  text-align: center;
+  font-size:  5rem;
+}
+h2{
+  font-family: 'heavy';
+  text-align: center;
+  font-size: 2.8rem;
 }
 
-body {
-  margin: 0;
-  background-color: lightgray;
-  font-family: sans-serif;
+h3{
+  font-family:'regular';
+  font-size: 1.5rem;
+}
+
+h4{
+  font-family:'medium';
+  font-size: 1.8rem;
+}
+h5{
+  font-family: light;
+  font-size: 1.5rem;
+}
+
+@font-face{
+  font-family:'outline';
+  src: url(fonts/GilmerOutline.otf);
+}
+@font-face{
+  font-family:'heavy';
+  src: url(fonts/Gilmer\ Heavy.otf);
+}
+@font-face{
+  font-family:'regular';
+  src: url(fonts/Gilmer\ Regular.otf);
+}
+@font-face {
+  font-family: 'light';
+  src: url(fonts/Gilmer\ Light.otf);
+}
+@font-face {
+  font-family: 'medium';
+  src: url(fonts/Gilmer\ Medium.otf);
 }
