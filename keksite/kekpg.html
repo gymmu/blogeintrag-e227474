@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virusinstaller.com</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body style="background-color: black;">
+  <a href="/keksite/kekpg2.html"style="width:auto; text-decoration: none;" >
+    <img src="bild.png" class="petapng">
+    <h1 class="titell">
+      Get free Waifus!
+    </h1>
+  </a>
+  <p></p>
+  <strong div class='a'>
+    <img src="cursor.png" class="cursorpng">
+    <script>
+      $(document).ready(function(){
+        animateDiv();
+        
+      });
+      
+      function makeNewPosition(){
+        
+        // Get viewport dimensions (remove the dimension of the div)
+        var h = $(window).height() - 30;
+        var w = $(window).width() - 30;
+        
+        var nh = Math.floor(Math.random() * h);
+        var nw = Math.floor(Math.random() * w);
+        
+        return [nh,nw];    
+        
+      }
+      
+      function animateDiv(){
+        var newq = makeNewPosition();
+        var oldq = $('.a img').offset();
+        var speed = calcSpeed([oldq.top, oldq.left], newq);
+        
+        $('.a img').animate({ top: newq[0], left: newq[1] }, speed, function(){
+          animateDiv();        
+        });
+        
+      };
+      
+      function calcSpeed(prev, next) {
+        
+        var x = Math.abs(prev[1] - next[1]);
+        var y = Math.abs(prev[0] - next[0]);
+        
+        var greatest = x > y ? x : y;
+        
+        var speedModifier = 1.0;
+      
+        var speed = Math.ceil(greatest/speedModifier);
+      }
+      </script>  
+  </div>
+  <strong div class='ab'>
+    <img src="cursor.png"class="cursorpng">
+    <script>
+      $(document).ready(function(){
+        animateDivb();
+        
+      });
+      
+      function makeNewPositionb(){
+        
+        // Get viewport dimensions (remove the dimension of the div)
+        var h = $(window).height() - 30;
+        var w = $(window).width() - 30;
+        
+        var nh = Math.floor(Math.random() * h);
+        var nw = Math.floor(Math.random() * w);
+        
+        return [nh,nw];    
+        
+      }
+      
+      function animateDivb(){
+        var newq = makeNewPositionb();
+        var oldq = $('.ab img').offset();
+        var speed = calcSpeed([oldq.top, oldq.left], newq);
+        
+        $('.ab img').animate({ top: newq[0], left: newq[1] }, speed, function(){
+          animateDivb();        
+        });
+        
+      };
+      
+      function calcSpeed(prev, next) {
+        
+        var x = Math.abs(prev[1] - next[1]);
+        var y = Math.abs(prev[0] - next[0]);
+        
+        var greatest = x > y ? x : y;
+        
+        var speedModifier = 1.0;
+      
+        var speed = Math.ceil(greatest/speedModifier);
+      }
+      </script>  
+  </div>
+  <strong div class='ac'>
+    <img src="cursor.png" class="cursorpng">
+    <script>
+      $(document).ready(function(){
+        animateDivc();
+        
+      });
+      
+      function makeNewPositionc(){
+        
+        // Get viewport dimensions (remove the dimension of the div)
+        var h = $(window).height() - 30;
+        var w = $(window).width() - 30;
+        
+        var nh = Math.floor(Math.random() * h);
+        var nw = Math.floor(Math.random() * w);
+        
+        return [nh,nw];    
+        
+      }
+      
+      function animateDivc(){
+        var newq = makeNewPositionc();
+        var oldq = $('.ac img').offset();
+        var speed = calcSpeed([oldq.top, oldq.left], newq);
+        
+        $('.ac img').animate({ top: newq[0], left: newq[1] }, speed, function(){
+          animateDivc();        
+        });
+        
+      };
+      
+      function calcSpeed(prev, next) {
+        
+        var x = Math.abs(prev[1] - next[1]);
+        var y = Math.abs(prev[0] - next[0]);
+        
+        var greatest = x > y ? x : y;
+        
+        var speedModifier = 1.0;
+      
+        var speed = Math.ceil(greatest/speedModifier);
+      }
+      </script>  
+  </div>
+  <strong div class='ad'>
+    <img src="cursor.png" class="cursorpng">
+    <script>
+      $(document).ready(function(){
+        animateDivd();
+        
+      });
+      
+      function makeNewPositiond(){
+        
+        // Get viewport dimensions (remove the dimension of the div)
+        var h = $(window).height() - 30;
+        var w = $(window).width() - 30;
+        
+        var nh = Math.floor(Math.random() * h);
+        var nw = Math.floor(Math.random() * w);
+        
+        return [nh,nw];    
+        
+      }
+      
+      function animateDivd(){
+        var newq = makeNewPositiond();
+        var oldq = $('.ad img').offset();
+        var speed = calcSpeed([oldq.top, oldq.left], newq);
+        
+        $('.ad img').animate({ top: newq[0], left: newq[1] }, speed, function(){
+          animateDivd();        
+        });
+        
+      };
+      
+      function calcSpeed(prev, next) {
+        
+        var x = Math.abs(prev[1] - next[1]);
+        var y = Math.abs(prev[0] - next[0]);
+        
+        var greatest = x > y ? x : y;
+        
+        var speedModifier = 1.0;
+      
+        var speed = Math.ceil(greatest/speedModifier);
+      }
+      </script>  
+  </div>
+
+  <audio src="ost.mp3" autoplay loop controls hidden></audio>
+</body>
+</html>
