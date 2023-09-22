@@ -91,6 +91,25 @@ h5{
   filter: drop-shadow(3px 3px 3px #ffffff);  
 }
 
+.viruslink{
+  animation: fancylink 5s linear;
+  transition: all 0.5s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.viruslink:hover{
+  letter-spacing: 0.75rem;
+}
+
+.centertext{
+  text-align: center;
+}
+
+@keyframes fancylink{
+  50% {font-size: 60px;} /*zoomt den text hinen und heraus*/
+}
+
+
 @font-face{
   font-family:'outline';
   src: url(fonts/GilmerOutline.otf);
